@@ -11,4 +11,5 @@ var result = "Sparky is " + humanAge + " human years old which is " + dogAge + "
 alert(result);
 
 // Print the dog's age
+console.log(result);
 console.log(dogAge);
