@@ -1,7 +1,10 @@
 // Terence Washington, August 14, 2014, Dog Years
 
 // The user can input the human years of the dog here
-var humanAge = prompt("How old is Sparky in human years? \n Age:");
+//var humanAge = prompt("How old is Sparky in human years? \n Age:");
+
+//I set the dog's human age at 3 years
+var humanAge = 3;
 
 //The human age is calculated
 var dogAge = humanAge * 7;
