@@ -27,7 +27,7 @@ console.log(yawn);
 console.log(age);
 
 //set the result in a concatening string
-var result = "The volume of the warehouse building is " + volume + " cubic feet.";
+var result = "Your wacky answer is " + ranTotal".";
 
 //alert the result back to the user
 alert(result);
