@@ -6,9 +6,9 @@
  */
 
 // Inputing the lenght, width, and height of the warehouse building
-var lenght = prompt("How many hours have I played Tetris for monday? \n Enter Hours:");
-var width = prompt("How many hours have I played Tetris for tuesday? \n Enter Hours:");
-var height = prompt("How many hours have I played Tetris for wedsnesday? \n Enter Hours:");
+var lenght = prompt("How long is the warehouse building? \n Enter lenght:");
+var width = prompt("How wide is the warehouse building? \n Enter width:");
+var height = prompt("How tall is the warehouse building? \n Enter height:");
 
 
 //multiplies the input of the lenght, width, and height.
