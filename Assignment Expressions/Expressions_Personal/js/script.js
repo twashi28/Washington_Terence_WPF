@@ -21,5 +21,5 @@ var average = (sum)/5;
 
 //output the average of the week
 console.log(average);
-var result = "The average hours I have played tetris is " + average + " hrs.";
+var result = "The average hours I have played tetris is " + average + " hours this week.";
 alert(result);
