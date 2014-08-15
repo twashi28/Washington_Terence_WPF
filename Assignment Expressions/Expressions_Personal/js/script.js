@@ -12,8 +12,12 @@ var wedsnesday = prompt("How many hours have I played Tetris for wedsnesday? \n 
 var thursday = prompt("How many hours have I played Tetris for thursday? \n Enter Hours:");
 var friday = prompt("How many hours have I played Tetris for friday? \n Enter Hours:");
 
+//adds the hours of the week together
+var sum = Number(monday) + Number(tuesday) + Number(wedsnesday) + Number(thursday) + Number(friday);
+console.log(sum);
+
 //Find the average of the hours played for the week.
-var average = (monday + tuesday + wedsnesday + thursday + friday);
+var average = (monday + tuesday + wedsnesday + thursday + friday)/5;
 
 //output the average of the week
 console.log(average);
