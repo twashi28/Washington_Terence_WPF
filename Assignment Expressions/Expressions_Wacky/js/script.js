@@ -13,10 +13,15 @@ var day = prompt ("Type the number of the day of your birthday. \n 1 -  31:");
 var yawn = prompt ("How many times have you yawned today? \n Yawns:");
 var age = prompt ("How old are you today? \n age:");
 
-//multiplies the input of the lenght, width, and height.
+//adds the inputs together
 var sum = Number(day) + Number(yawn) + Number(age);
 
-// Print the volume to the console
+// multiplies the sum total by the second array element
+var ranTotal = sum * random[1];
+
+
+
+// Print the prompt inputs to the console
 console.log(day);
 console.log(yawn);
 console.log(age);
