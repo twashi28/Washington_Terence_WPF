@@ -25,6 +25,7 @@ var ranTotal = sum * random[1];
 console.log(day);
 console.log(yawn);
 console.log(age);
+console.log(sum);
 
 //set the result in a concatening string
 var result = "Your wacky answer is " + ranTotal;
