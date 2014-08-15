@@ -10,15 +10,16 @@ var random = [3, 45, 23, 89, 84, 466];
 
 // Print the inputs to the console
 var day = prompt ("Type the number of the day of your birthday. \n 1 -  31:");
-var clap = prompt ("How many times have yoou yawned today? \n Yawns:");
-var age = prompt ("How old are you today? \n age:")
+var yawn = prompt ("How many times have you yawned today? \n Yawns:");
+var age = prompt ("How old are you today? \n age:");
 
 //multiplies the input of the lenght, width, and height.
-var volume = Number(lenght) * Number(width) * Number(height);
+var sum = Number(day) + Number(yawn) + Number(age);
 
 // Print the volume to the console
 console.log(day);
-console.log(clap);
+console.log(yawn);
+console.log(age);
 
 //set the result in a concatening string
 var result = "The volume of the warehouse building is " + volume + " cubic feet.";
