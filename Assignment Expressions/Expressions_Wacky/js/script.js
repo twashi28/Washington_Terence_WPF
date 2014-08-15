@@ -17,7 +17,7 @@ var age = prompt ("How old are you today? \n age:");
 var sum = Number(day) + Number(yawn) + Number(age);
 
 // multiplies the sum total by the second array element
-var ranTotal = sum * random[0];
+var ranTotal = sum * random [1];
 
 
 
@@ -26,7 +26,7 @@ console.log(day);
 console.log(yawn);
 console.log(age);
 console.log(sum);
-
+console.log(random[1]);
 //set the result in a concatening string
 var result = "Your wacky answer is " + ranTotal;
 
