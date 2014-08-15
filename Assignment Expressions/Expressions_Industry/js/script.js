@@ -10,6 +10,11 @@ var lenght = prompt("How long is the warehouse building? \n Enter lenght:");
 var width = prompt("How wide is the warehouse building? \n Enter width:");
 var height = prompt("How tall is the warehouse building? \n Enter height:");
 
+// Print the inputs to the console
+console.log(lenght);
+console.log(width);
+console.log(height);
+
 
 //multiplies the input of the lenght, width, and height.
 var volume = Number(lenght) * Number(width) * Number(height);
