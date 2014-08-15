@@ -9,7 +9,8 @@
 var random = [3, 45, 23, 89, 84, 466];
 
 // Print the inputs to the console
-var = prompt ("Type the number of the day of your birthday. \n 1 -  31")
+var day = prompt ("Type the number of the day of your birthday. \n 1 -  31");l
+var = prompt ("");
 
 //multiplies the input of the lenght, width, and height.
 var volume = Number(lenght) * Number(width) * Number(height);
