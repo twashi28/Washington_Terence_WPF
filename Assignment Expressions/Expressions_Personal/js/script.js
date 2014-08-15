@@ -14,6 +14,8 @@ var friday = prompt("How many hours have I played Tetris for friday? \n Enter Ho
 
 //adds the hours of the week together
 var sum = Number(monday) + Number(tuesday) + Number(wedsnesday) + Number(thursday) + Number(friday);
+
+// Print the sum to the console
 console.log(sum);
 
 //Find the average of the hours played for the week.
@@ -21,5 +23,9 @@ var average = (sum)/5;
 
 //output the average of the week
 console.log(average);
+
+//set the result in a concatening string
 var result = "The average hours I have played tetris is " + average + " hours this week.";
+
+//alert the result back to the user
 alert(result);
