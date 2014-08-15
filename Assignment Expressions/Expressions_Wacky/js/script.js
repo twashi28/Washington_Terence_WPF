@@ -27,7 +27,10 @@ console.log(yawn);
 console.log(age);
 
 //set the result in a concatening string
-var result = "Your wacky answer is " + ranTotal".";
+var result = "Your wacky answer is " + ranTotal;
+
+//print the wacky total to console
+console.log(ranTotal);
 
 //alert the result back to the user
 alert(result);
