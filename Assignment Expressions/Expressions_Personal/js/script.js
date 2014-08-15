@@ -13,7 +13,7 @@ var thursday = prompt("How many hours have I played Tetris for thursday? \n Ente
 var friday = prompt("How many hours have I played Tetris for friday? \n Enter Hours:");
 
 //Find the average of the hours played for the week.
-var average = monday + tuesday + wedsnesday + thursday + friday / 5;
+var average = (monday + tuesday + wedsnesday + thursday + friday);
 
 //output the average of the week
 console.log(average);
