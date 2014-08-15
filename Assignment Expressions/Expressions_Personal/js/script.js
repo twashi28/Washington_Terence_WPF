@@ -17,7 +17,7 @@ var sum = Number(monday) + Number(tuesday) + Number(wedsnesday) + Number(thursda
 console.log(sum);
 
 //Find the average of the hours played for the week.
-var average = (monday + tuesday + wedsnesday + thursday + friday)/5;
+var average = (sum)/5;
 
 //output the average of the week
 console.log(average);
