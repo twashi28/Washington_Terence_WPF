@@ -17,7 +17,7 @@ var age = prompt ("How old are you today? \n age:");
 var sum = Number(day) + Number(yawn) + Number(age);
 
 // multiplies the sum total by the second array element
-var ranTotal = sum * random[1];
+var ranTotal = sum * random[0];
 
 
 
