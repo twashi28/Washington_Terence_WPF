@@ -4,10 +4,11 @@
 
 var kidHeight = 47;
 var minHeight = 48;
+var shoeLift = 2;
 
 // If the child is over 48 in height
 
-if(kidHeight+2 > minHeight){
+if(kidHeight + shoeLift > minHeight){
 	// code performed if condition is true
 	console.log("You can ride the coaster.");
 }
