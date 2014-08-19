@@ -4,15 +4,14 @@
 
 
 
-var gpa = 48;
+var age = 11;
+var book;
 
-// if gpa is over the min 2.0 score, the student can graduate
+// if the child is under 10, they get green eggs and ham, otherwise they get the time machine
 
-/*if(gpa > 2.0){
-	console.log("You can graduate.")
+if(age <10){
+	book = "Green Eggs and Ham";
 }else{
-	console.log("gpa is too low.")
+	book = "Time Machine";
 }
-*/
-
-(gpa > 2.0) ? console.log("You can graduate.") : console.log("gpa is too low.")
+console.log(book);
