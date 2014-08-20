@@ -11,12 +11,13 @@ var temp = prompt ("What is the temperature to convert? \n Enter Temperature:");
 var cel;
 var far;
 
-if (degree = "c") {
+if (degree == "c") {
 	cel =  (temp - 32) * 5/9;
 	console.log(cel);
 	alert(cel);
 
-}if (degree = "f") {
+}if ( degree =="f"){
 	far = temp * 9/5 + 32;
 	console.log(far);
+	alert(far);
 }
