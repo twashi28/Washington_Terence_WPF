@@ -16,7 +16,7 @@ if (degree = "c") {
 	console.log(cel);
 	alert(cel);
 
-}else if (degree = "f") {
-	far = (temp * 9)/5 + 32;
+}if (degree = "f") {
+	far = temp * 9/5 + 32;
 	console.log(far);
 }
