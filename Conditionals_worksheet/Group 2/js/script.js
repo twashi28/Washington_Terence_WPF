@@ -17,4 +17,8 @@ if (sPercent <= 100 && sPercent >= 95) {
 	sGrade = "A";
 	alert("You have " + sPercent + "%, which means you have earned a(n) " + sGrade + " in the class!");
 	console.log("You have a " + sPercent + "%, which means you have earned a(n) " + sGrade + " in the class!");
+}else if (sPercent <= 89 && sPercent >= 85) {
+	sGrade = "B+";
+	alert("You have " + sPercent + "%, which means you have earned a(n) " + sGrade + " in the class!");
+	console.log("You have a " + sPercent + "%, which means you have earned a(n) " + sGrade + " in the class!");
 }
