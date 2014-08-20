@@ -14,10 +14,10 @@ var far;
 if (degree == "c") {
 	cel =  (temp - 32) * 5/9;
 	console.log(cel);
-	alert(cel);
+	alert("The temperature is " + cel + " degrees celsius.");
 
 }if ( degree =="f"){
 	far = temp * 9/5 + 32;
 	console.log(far);
-	alert(far);
+	alert("The temperature is " + far + " degrees fahrenheit.");
 }
