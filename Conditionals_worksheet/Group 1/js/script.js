@@ -11,11 +11,13 @@ var temp = prompt ("What is the temperature to convert? \n Enter Temperature:");
 var cel;
 var far;
 
+//If the degree is "c", then do the celsius calculation to alert and print the conversion
 if (degree == "c") {
 	cel =  (temp - 32) * 5/9;
 	console.log(cel);
 	alert("The temperature is " + cel + " degrees celsius.");
-
+	
+//If the degree is "f", then do the fahrenheit calculation to alert and print the conversion
 }if ( degree =="f"){
 	far = temp * 9/5 + 32;
 	console.log(far);

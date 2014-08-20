@@ -1,8 +1,8 @@
 /* Terence Washington
- * Ternary Operators
+ * WPF Section 01
+ * Celsius to Fahrenheit converter
+ * 8-19-2014
  */
-
-
 
 var age = 6;
 var book;
