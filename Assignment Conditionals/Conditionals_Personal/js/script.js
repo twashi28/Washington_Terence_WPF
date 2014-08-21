@@ -19,7 +19,7 @@ if (hrSleep === "") {
 	hrSleep = prompt("Please enter your hours of sleep");
 }
 
-var freeTime = hrWork + hrSleep - 24;
+var freeTime = 24 - (hrWork + hrSleep);
 var usedTime = hrWork + hrSleep;
 var time;
 var result1 = "You have to much time on your hands.";
