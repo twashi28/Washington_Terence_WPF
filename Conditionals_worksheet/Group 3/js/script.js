@@ -1,13 +1,10 @@
 /* Terence Washington
- * Ternary Operators
+ * WPF Section 01
+ * Movie Ticket Price
+ * 8-21-2014
  */
 
 
-
-var age = 6;
-var book;
-
-// if the child is under 10, they get green eggs and ham, otherwise they get the time machine
-
-book = (age < 10) ? "Green Eggs and Ham" : "Time Machine";
-console.log(book);
+var age = prompt("Enter your age \n Age:", 17);
+var time = prompt("What time does the movie start? \n Start Time:", 7);
+var price;
