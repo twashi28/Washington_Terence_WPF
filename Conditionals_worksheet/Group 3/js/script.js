@@ -7,9 +7,8 @@
 // Setting variables
 var age = prompt("Enter your age \n Age:", 17);
 
-//Re- prompt if age is empty
+//Re-prompt if age is empty
 if (age === "" || age === "0") {
-	//Re-prompt for name if empty
 	age = prompt("Please enter your age");
 }
 
@@ -17,7 +16,6 @@ var time = prompt("What time does the movie start? \n Start Time:", 7);
 
 // Re-prompt if time is empty
 if (time === "" || time === "0") {
-	//Re-prompt for name if empty
 	time = prompt("Please enter movie time");
 }
 
