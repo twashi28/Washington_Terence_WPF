@@ -1,34 +1,30 @@
 /* Terence Washington
  * WPF Section 01
- * Movie Ticket Price
+ * Conditionals Personal
  * 8-21-2014
  */
 
 // Setting variables
-var age = prompt("Enter your age \n Age:", 17);
+var hrWork = prompt("Enter your hours of work \n Work hours:", 8);
 
 //Re-prompt if age is empty
-if (age === "" || age === "0") {
-	age = prompt("Please enter your age");
+if (hrWork === "" || hrWork === "0") {
+	hrWork = prompt("Please enter your hours of work");
 }
 
-var time = prompt("What time does the movie start? \n Start Time:", 7);
+var hrSleep = prompt("Enter your sleep hours \n Sleep hours:", 8);
 
 // Re-prompt if time is empty
-if (time === "" || time === "0") {
-	time = prompt("Please enter movie time");
+if (hrSleep === "" || hrSleep === "0") {
+	hrSleep = prompt("Please enter your hours of sleep");
 }
 
-var price;
+var freeTime = hrWork + hrSleep - 24;
+var usedTime = hrWork + hrSleep;
+var time;
+var result1 = "You have to much time on your hands.";
+var result2 = "You need a vacation.";
 
 
-//Set ternary statment
-price = ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)) ? 7 : 12;
-
-//Alerts the result of discount price
-	alert("The ticket price is $" + price);
-	
-	//Prints to the console of discount price
-	console.log("The ticket price is $" + price);
-	console.log("Age: " + age);
-	console.log("Time: " + time);
+//Set ternary statment and alerts the results
+time = (freeTime > usedTime) ? alert(result1); : alert(result2);
