@@ -23,9 +23,18 @@ if (time === "" || time === "0") {
 
 var price;
 
+price = ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)) ? 7 : 12;
+
+//Alerts the result of discount price
+	alert("The ticket price is $" + price);
+	
+	//Prints to the console of discount price
+	console.log("The ticket price is $" + price);
+	console.log("Age: " + age);
+	console.log("Time: " + time);
 
 
-
+/*
 //If statments for calculation of discount prices
 if ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)){
 	price = 7;
