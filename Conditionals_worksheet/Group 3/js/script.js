@@ -23,6 +23,8 @@ if (time === "" || time === "0") {
 
 var price;
 
+
+//Set ternary statment
 price = ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)) ? 7 : 12;
 
 //Alerts the result of discount price
@@ -32,30 +34,3 @@ price = ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)) ? 7 : 12;
 	console.log("The ticket price is $" + price);
 	console.log("Age: " + age);
 	console.log("Time: " + time);
-
-
-/*
-//If statments for calculation of discount prices
-if ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)){
-	price = 7;
-	
-	//Alerts the result of discount price
-	alert("The ticket price is $" + price);
-	
-	//Prints to the console of discount price
-	console.log("The ticket price is $" + price);
-	console.log("Age: " + age);
-	console.log("Time: " + time);
-	
-	//else statements if the inputs are not true
-}else {
-	price = 12;
-	
-	//Alerts the regular price for false condition
-	alert("The ticket price is $" + price);
-	
-	//Prints the regular price for false condition
-	console.log("The ticket price is $" + price);
-	console.log("Age: " + age);
-	console.log("Time: " + time);
-}
