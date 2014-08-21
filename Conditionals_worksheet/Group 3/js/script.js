@@ -10,7 +10,7 @@ var time = prompt("What time does the movie start? \n Start Time:", 7);
 var price;
 
 //If statments for calculation of discount prices
-if ((age >= 55 || age <= 10) && (time >= 3 || time <= 5)){
+if ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)){
 	price = 7;
 	alert("The ticket price is $" + price);
 	console.log("The ticket price is $" + price);
