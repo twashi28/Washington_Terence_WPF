@@ -1,34 +1,46 @@
 /* Terence Washington
  * WPF Section 01
- * Movie Ticket Price
+ * Conditionals Industry
  * 8-21-2014
  */
 
-// Setting variables
-var age = prompt("Enter your age \n Age:", 17);
+// set the prompt to input an amount.
+var speed;
+var boxes = prompt("How many boxes have you picked?", 90);
 
-//Re-prompt if age is empty
-if (age === "" || age === "0") {
-	age = prompt("Please enter your age");
+// Set a prompt to validate input from the user
+if (boxes === "") {
+	boxes = prompt("Please enter the amount of boxes you have picked.");
 }
 
-var time = prompt("What time does the movie start? \n Start Time:", 7);
 
-// Re-prompt if time is empty
-if (time === "" || time === "0") {
-	time = prompt("Please enter movie time");
-}
-
-var price;
-
-
-//Set ternary statment
-price = ((age >= 55 || age <= 10) || (time >= 3 && time <= 5)) ? 7 : 12;
-
-//Alerts the result of discount price
-	alert("The ticket price is $" + price);
+// determining the speed for the first range
+if (boxes >= 100 || boxes >= 90) {
+	speed = "very fast";
+	alert("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	console.log("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
 	
-	//Prints to the console of discount price
-	console.log("The ticket price is $" + price);
-	console.log("Age: " + age);
-	console.log("Time: " + time);
+// determining the speed for the second range
+}else if (boxes <= 89 && boxes >= 80) {
+	speed = "fast";
+	alert("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	console.log("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	
+// determining the speed for the third range
+}else if (boxes <= 79 && boxes >= 70) {
+	speed = "normal";
+	alert("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	console.log("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	
+// determining the speed for the forth range
+}else if (boxes <= 69 && boxes >= 60) {
+	speed = "slow";
+	alert("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	console.log("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	
+// determining the speed for the fifth range
+}else if (boxes <= 59 && boxes >= 0) {
+	speed = "very slow";
+	alert("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+	console.log("You have done " + boxes + " boxes, which means you are " + speed + " in production.");
+}
