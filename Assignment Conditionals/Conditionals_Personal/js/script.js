@@ -5,25 +5,29 @@
  */
 
 // Setting variables
-var hrWork = prompt("Enter your hours of work a day\n Work hours:", 8);
+var hrWork = Number(prompt("Enter your hours of work a day\n Work hours:"));
 
 //Re-prompt if age is empty
 if (hrWork === "") {
-	hrWork = prompt("Please enter your hours of work a day");
+	hrWork = Number(prompt("Please enter your hours of work a day"));
 }
 
-var hrSleep = prompt("Enter your sleep hours \n Sleep hours:", 8);
+var hrSleep = Number(prompt("Enter your sleep hours a day\n Sleep hours:"));
 
 // Re-prompt if time is empty
 if (hrSleep === "") {
-	hrSleep = prompt("Please enter your hours of sleep");
+	hrSleep = Number(prompt("Please enter your hours of sleep"));
 }
 
-var freeTime = 24 - (hrWork + hrSleep);
+// Setting variables to hold input values
+var usedTime = hrWork + hrSleep;
 var time;
+
+//Setting variables to hold string results
 var result1 = "You need a vacation.";
-var result2 = "You have to much time on your hands.";
+var result2 = "You have time on your hands.";
 
 
-//Set ternary statment and alerts the results
-time = (freeTime <= 4) ? alert(result1) : alert(result2);
+//Set ternary statment and alerts to print results
+time = (usedTime >= 18) ? alert(result1) : alert(result2);
+console.log(usedTime);
