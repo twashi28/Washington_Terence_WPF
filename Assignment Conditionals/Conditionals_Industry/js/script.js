@@ -7,16 +7,18 @@
 // set the prompt to input an amount.
 var speed;
 var boxes = prompt("How many boxes have you picked?", 90);
-var hour = prompt("How many hours have you worked?", 8);
-var rate = boxes / hour;
 
-// Set a prompt to validate input from the user
 if (boxes === "") {
-	boxes = prompt("Please enter the amount of boxes you have picked.");
+	boxes = prompt("Please enter the amount of boxes you have picked."); // Set a prompt to validate input from the user
 }
+var hour = prompt("How many hours have you worked?", 8);
+
 if (hour === "") {
-	hour = prompt("Please enter the amount of hours you have worked.");
+	hour = prompt("Please enter the amount of hours you have worked."); // Set a prompt to validate input from the user
 }
+
+// Set the calculation for the rate of speed
+var rate = boxes / hour;
 
 
 // determining the speed for the first range
