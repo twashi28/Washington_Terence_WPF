@@ -10,6 +10,7 @@ snack [0];
 snack[1];
 snack[2];
 snack[3];
+snack[4] = "cake";
 
 //Setting a prompt to collect info from the user
 var uSnack = prompt ("What snack would you like to eat? \n chips, brownies, gummies, or pretzels");
@@ -32,4 +33,4 @@ hMany +=hMany;
 
 
 // Set the print out from alert and console
-alert("So you like " + uSnack + "? You can have " + hMany + " more and some " + snack[1]".");
+alert("So you like " + uSnack + "? You can have " + hMany + " more and some " + snack[4] + ".");
