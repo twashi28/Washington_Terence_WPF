@@ -7,6 +7,7 @@ function outptMsg () {
   
 }
 
+//Sets up the function
 function calcArea () {
 	var width = 20;
 	var height = 30;
@@ -15,4 +16,6 @@ function calcArea () {
 }
 
 // Calling the function
+calcArea();
+calcArea();
 calcArea();
