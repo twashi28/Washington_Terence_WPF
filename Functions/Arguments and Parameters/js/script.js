@@ -1,21 +1,26 @@
 /* Terence Washington
- * Function Invocation
+ * Arguments and Parameters
  */
+
 
 function outptMsg () {
   console.log("Hello World");
   
 }
+// Calling the function
+calcArea(30, 20);         // w = 30, h = 20
 
 //Sets up the function
-function calcArea () {
-	var width = 20;
-	var height = 30;
-	var area = width * height;
+function calcArea (w, h) {
+	var area = w * h;
   console.log(area);
 }
 
-// Calling the function
-calcArea();
-calcArea();
-calcArea();
+
+function dogYears(age){ // parameters or vars
+	var dogYears = age * 7;
+	console.log("Sparky is " + dogYears + " years old.")
+}
+var age1 = 6;
+dogYears(age1); //arguments or storage
+dogYears(3);
