@@ -1,16 +1,15 @@
 /* Terence Washington
- * If and else
+ * Basic Function Structure
  */
 
-var kidHeight = 50;
-var minHeight = 48;
+function outptMsg () {
+  console.log("Hello World");
+  
+}
 
-// If the child is over 48 in height
-
-if(kidHeight > minHeight){
-	// code performed if condition is true
-	console.log("You can ride the coaster.");
-}else{
-	// code performed if condition is false
-	console.log("You are too short for this ride.");
+function calcArea () {
+	var width = 20;
+	var height = 30;
+	var area = width * height;
+  console.log(area);
 }
