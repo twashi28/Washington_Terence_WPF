@@ -11,4 +11,4 @@ var cirCumf = function (r) {      //Set a variable as a function with a paramete
   return cumf;                  // Returning the calculated answer out of the function
 }
 var answer = cirCumf(2);       //Setting a variable to call the function with arguments
-console.log(answer);           //Printing the answer to the console
+console.log("The circumference of the circle is " + answer + ".");           //Printing the answer to the console
