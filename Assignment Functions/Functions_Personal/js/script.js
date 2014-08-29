@@ -28,4 +28,4 @@ if (hrPlay >= 160) {
 
 // setting the variable for the calculated answer and print to console
 var answer = calcYear(hrPlay);
-console.log("In a year, you would have spent " + answer + " hours playing this game.")
+console.log("In a year, you would have spent " + answer + " hours playing this game.");

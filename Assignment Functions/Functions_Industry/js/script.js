@@ -1,53 +1,35 @@
 /* Terence Washington
  * WPF Section 01
  * Functions Industry
- * 8-27-2014
+ * 8-28-2014
  */
 
-// set the prompt to input an amount.
-var speed;
-var boxes = prompt("How many boxes have you picked?", 90);
+// set the prompt to input a number
+var jobs = prompt("How many positions have you done?", 2);
 
-if (boxes === "") {
-	boxes = prompt("Please enter the amount of boxes you have picked."); // Set a prompt to validate input from the user
+if (jobs === "") {
+	jobs = prompt("Please enter how many positions you have performed."); // Set a prompt to validate input from the user
 }
-var hour = prompt("How many hours have you worked?", 8);
+var hour = prompt("How many hours have you worked in each position?", 8);
 
 if (hour === "") {
-	hour = prompt("Please enter the amount of hours you have worked."); // Set a prompt to validate input from the user
+	hour = prompt("Please enter the position hours."); // Set a prompt to validate input from the user
 }
 
-// Set the calculation for the rate of speed
-var rate = boxes / hour;
-
-
-// determining the speed for the first range
-if (boxes >= 100 || boxes >= 90) {
-	speed = "very fast";
-	alert("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	console.log("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	
-// determining the speed for the second range
-}else if (boxes <= 89 && boxes >= 80) {
-	speed = "fast";
-	alert("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	console.log("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	
-// determining the speed for the third range
-}else if (boxes <= 79 && boxes >= 70) {
-	speed = "normal";
-	alert("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	console.log("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	
-// determining the speed for the forth range
-}else if (boxes <= 69 && boxes >= 60) {
-	speed = "slow";
-	alert("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	console.log("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	
-// determining the speed for the fifth range
-}else if (boxes <= 59 && boxes >= 0) {
-	speed = "very slow";
-	alert("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
-	console.log("You have done " + boxes + " boxes per hour, which means you are " + speed + " in production. Your rate is " + rate + " per hour.");
+//Set up an else if statement for the jobs prompt
+if (jobs == 1){
+	console.log("Simple worker");
+}else if (jobs == 2){
+	console.log("Multitakser");
+}else if (jobs >=3){
+	console.log("Jack of all trades");
 }
+
+//Set up a function with a parameter to handle the calculation and return the answer
+var hrsWork = function (h) {
+  var work = jobs / h * 100;
+  return work;
+}
+//Set a variable to call the function with an argument and print to the console log
+var answer = hrsWork(hour);
+console.log("These are the average hours you have worked for the position(s) " + answer + " hrs.");
